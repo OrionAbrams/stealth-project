@@ -14,18 +14,17 @@
     * The owner of the app stores all user's information in their database and can access it through the app
 ### 3. How / Design Description
   * **Functionality** - refer to [video of application user flow (still working on it)](#):
-    * View Setup (/client)
-      * Login
-      ![login.png](client/public/assets/readmelinks/login.png "login")
+    * Login
+    ![login.png](client/public/assets/readmelinks/login.png "login")
 
-      * Admin page
-      ![admin.png](client/public/assets/readmelinks/admin.png "admin")
+    * Admin page
+    ![admin.png](client/public/assets/readmelinks/admin.png "admin")
 
-      * Form Choice page
-      ![choice.png](client/public/assets/readmelinks/choice.png "choice")
-      
-      * Top of each Form page
-      ![form.png](client/public/assets/readmelinks/form.png "form")
+    * Form Choice page
+    ![choice.png](client/public/assets/readmelinks/choice.png "choice")
+    
+    * Top of each Form page
+    ![form.png](client/public/assets/readmelinks/form.png "form")
 
   * Instructions for using the application are in the front page of the live application.
 
