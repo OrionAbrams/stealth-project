@@ -15,13 +15,13 @@
 ### 3. How / Design Description
   * **Functionality** - refer to [video of application user flow (still working on it)](#):
     * View Setup (/client)
-      * Login ![login.png](client/public/assets/readmelinks/login.png "login" | width=200)
+      * Login ![login.png](client/public/assets/readmelinks/login.png "login")
 
-      * Admin page ![admin.png](client/public/assets/readmelinks/admin.png "admin" | width=200)
+      * Admin page ![admin.png](client/public/assets/readmelinks/admin.png "admin")
 
-      * Form Choice page ![choice.png](client/public/assets/readmelinks/choice.png "choice" | width=200)
+      * Form Choice page ![choice.png](client/public/assets/readmelinks/choice.png "choice")
       
-      * Top of each Form page ![form.png](client/public/assets/readmelinks/form.png "form" | width=200)
+      * Top of each Form page ![form.png](client/public/assets/readmelinks/form.png "form")
 
   * Instructions for using the application are in the front page of the live application.
 
