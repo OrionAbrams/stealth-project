@@ -1,0 +1,26 @@
+.btn-generic-company {
+  background-color: #FC6110 !important;
+  color: #FFF;
+  text-transform: lowercase !important;
+  border-radius: 25px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+.backBar {
+  background-color: #FF5A00;
+  /* display: block; */
+  /* z-index: 10; */
+  width: 100%;
+  min-height: 115px;
+}
+
+.logo {
+  z-index: 10;
+  height: 84.6px;
+  width: 110px;
+  margin-top: 15px;
+  margin-left: 1px;
+  position: relative;
+  top: 0px;
+}
