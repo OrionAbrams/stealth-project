@@ -9,15 +9,18 @@
   * **Technologies**, design through deployment of the application:
     * Server-side: Node.js w/ Express web app framework; MongoDB for data persistence w/ Sequelize ORM;  Passport for user authentication; Hellosign API for automated contracts
     * Client-side: React.js library for component based user interface; Material Bootstrap framework for HTML/CSS; React-Datepicker and Moment.js for dates in contracts
-  * User stories:
+  * **User stories**:
     * To be able to receive a contract with the form info put in automatically filled
     * The owner of the app stores all user's information in their database and can access it through the app
 ### 3. How / Design Description
-  * **Functionality** - refer to [video of application user flow (still working ont it)](#):
+  * **Functionality** - refer to [video of application user flow (still working on it)](#):
     * View Setup (/client)
       * Login ![login.png](client/public/assets/readmelinks/login.png "login")
+
       * Admin page ![admin.png](client/public/assets/readmelinks/admin.png "admin")
+
       * Form Choice page ![choice.png](client/public/assets/readmelinks/choice.png "choice")
+      
       * Top of each Form page ![form.png](client/public/assets/readmelinks/form.png "form")
 
   * Instructions for using the application are in the front page of the live application.
