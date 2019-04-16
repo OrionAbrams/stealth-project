@@ -15,7 +15,7 @@
 ### 3. How / Design Description
   * **Functionality** - refer to [video of application user flow (still working on it)](#):
     * View Setup (/client)
-      * Login ![login.png](client/public/assets/readmelinks/login.png "login")
+      * Login ![login.png](client/public/assets/readmelinks/login.png "login"){:height="36px" width="36px"}
 
       * Admin page ![admin.png](client/public/assets/readmelinks/admin.png "admin")
 
