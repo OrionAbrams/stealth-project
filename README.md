@@ -13,7 +13,7 @@
     * To be able to receive a contract with the form info put in automatically filled
     * The owner of the app stores all user's information in their database and can access it through the app
 ### 3. How / Design Description
-  * **Functionality** - refer to [video of application user flow (still working on it)](#):
+  * **Functionality** - refer to this [video of application user flow. (still working on it)](#):
     * Login
     
       ![login.png](client/public/assets/readmelinks/login.png "login")
@@ -32,7 +32,7 @@
 
   * Instructions for using the application are in the front page of the live application.
 
-  * If you would like to install this locally, download, yarn install, and sign up for a Hellosign API key. Put your api key in a .env file like the .env.example.txt. Make 3 templates on Hellosign, and replace the template ids with the ones in apiRoutes.js. Then for each Hellosign template you have to put the variables exactly as they are in the defaultForm.js, playForm.js, netflixForm,js, and movieForm.js (the "name" ones) as text boxes in Hellosign document edit, and choose filled by as "Me when sending" with the exact variable in the "Field Label" section. Make sure to use the defaultForm values for all 3 forms. Also, each form needs a "currentDate field" that it gets from Home.js (it is the date the document is sent and is automatic with Moment.js).
+  * To install this locally, download, yarn install, and sign up for a Hellosign API key. Put your Hellosign API key in a .env file like the .env.example.txt. Make 3 templates on Hellosign, and replace the template ids in apiRoutes.js with the ones created with Hellosign (it displays the template id after finalizing a template). Then for each Hellosign template, put the variables exactly as they are in the defaultForm.js, playForm.js, netflixForm,js, and movieForm.js (the "name" ones) as text boxes in Hellosign document edit, and choose filled by as "Me when sending" with the exact variable in the "Field Label" section. Make sure to use the defaultForm values for all 3 forms. Also, each form needs a "currentDate field" that it gets from Home.js (it is the date the document is sent and is automatic with Moment.js).
 
 ## Versioning
   * For the versions available, see the tags on this repository.
