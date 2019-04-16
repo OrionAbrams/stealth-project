@@ -16,19 +16,19 @@
   * **Functionality** - refer to [video of application user flow (still working on it)](#):
     * Login
     
-    • ![login.png](client/public/assets/readmelinks/login.png "login")
+      ![login.png](client/public/assets/readmelinks/login.png "login")
 
     * Admin page
 
-    • ![admin.png](client/public/assets/readmelinks/admin.png "admin")
+      ![admin.png](client/public/assets/readmelinks/admin.png "admin")
 
     * Form Choice page
 
-    • ![choice.png](client/public/assets/readmelinks/choice.png "choice")
+      ![choice.png](client/public/assets/readmelinks/choice.png "choice")
     
     * Top of each Form page
 
-    • ![form.png](client/public/assets/readmelinks/form.png "form")
+      ![form.png](client/public/assets/readmelinks/form.png "form")
 
   * Instructions for using the application are in the front page of the live application.
 
