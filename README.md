@@ -15,9 +15,9 @@
 ### 3. How / Design Description
   * **Functionality** - refer to [video of application user flow (still working on it)](#):
     * Login
-    
+    <p align="center">
     ![login.png](client/public/assets/readmelinks/login.png "login")
-
+    </p>
     * Admin page
 
     ![admin.png](client/public/assets/readmelinks/admin.png "admin")
