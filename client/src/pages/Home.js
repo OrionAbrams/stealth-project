@@ -97,20 +97,20 @@ class Home extends React.Component {
 
   // use below code and add button in jsx if want to make an admin
 
-  makeUser = () => {
-    axios.get("/api/adminpass")
-    .then((res) => {
-      neededPass = res.data
-    }).then(() => {
-    var newUser = {
-      username: "admin",
-      password: neededPass
-    }
-    axios.post("/api/users", newUser)
-      .then((res) => {
-      })
-    })
-  }
+  // makeUser = () => {
+  //   axios.get("/api/adminpass")
+  //   .then((res) => {
+  //     neededPass = res.data
+  //   }).then(() => {
+  //   var newUser = {
+  //     username: "admin",
+  //     password: neededPass
+  //   }
+  //   axios.post("/api/users", newUser)
+  //     .then((res) => {
+  //     })
+  //   })
+  // }
 
   // make new user function (as admin)
   newUser = event => {
@@ -305,7 +305,7 @@ class Home extends React.Component {
     return (
       <div style={sectionStyle}>
       {/* use button below if need to make an admin (admin can make other users) */}
-      <button onClick={this.makeUser}>Make Admin</button>
+      {/* <button onClick={this.makeUser}>Make Admin</button> */}
         <MDBCol md="12" className="backBar">
           <img src={Logo} className="logo" alt={"generic company top logo"} />
         </MDBCol>
