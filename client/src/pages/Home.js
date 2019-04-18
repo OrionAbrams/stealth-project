@@ -24,6 +24,10 @@ var sectionStyle = {
   fontFamily: "'Montserrat', 'sans-serif'"
 };
 
+var invisibleDisplay = {
+  display: "none"
+}
+
 // style for forms
 var formStyle = {
   marginTop: "40px",
@@ -47,6 +51,43 @@ var whiteBack = {
 
 // variable for the date that is picked by user choosing something on Datepicker--play form
 let date
+
+let storageObj
+
+// download functions for databases
+function downloadPlayJSON() {
+  var download = window.confirm("Would you like to download the play database?")
+  if (download === true){
+  var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(storageObj));
+  var dlAnchorElem = document.getElementById('downloadAnchorElem');
+  dlAnchorElem.setAttribute("href",     dataStr     );
+  dlAnchorElem.setAttribute("download", "playdatabase.json");
+  dlAnchorElem.click();
+  alert("Play Database Downloaded as JSON!")
+}
+}
+function downloadNetflixJSON() {
+  var download = window.confirm("Would you like to download the netflix database?")
+  if (download === true){
+  var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(storageObj));
+  var dlAnchorElem = document.getElementById('downloadAnchorElem');
+  dlAnchorElem.setAttribute("href",     dataStr     );
+  dlAnchorElem.setAttribute("download", "netflixdatabase.json");
+  dlAnchorElem.click();
+  alert("Netflix Database Downloaded as JSON!")
+  }
+}
+function downloadSuperheroJSON() {
+  var download = window.confirm("Would you like to download the superhero database?")
+  if (download === true){
+  var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(storageObj));
+  var dlAnchorElem = document.getElementById('downloadAnchorElem');
+  dlAnchorElem.setAttribute("href",     dataStr     );
+  dlAnchorElem.setAttribute("download", "superherodatabase.json");
+  dlAnchorElem.click();
+  alert("Superhero Database Downloaded as JSON!")
+  }
+}
 
 // test to see if valid email, don't let form submit if not
 function ValidateEmail(email) {
@@ -131,26 +172,33 @@ class Home extends React.Component {
     event.preventDefault()
     axios.get("/api/playusers")
       .then((res) => {
+        storageObj = JSON.stringify(res.data)
         this.setState({ userList: JSON.stringify(res.data) })
+        downloadPlayJSON()
       })
   }
+        
 
   // show netflix users as admin
   showNetflix = event => {
     event.preventDefault()
     axios.get("/api/netflixusers")
-      .then((res) => {
-        this.setState({ userList: JSON.stringify(res.data) })
-      })
+    .then((res) => {
+      storageObj = JSON.stringify(res.data)
+      this.setState({ userList: JSON.stringify(res.data) })
+      downloadNetflixJSON()
+    })
   }
 
   // show superhero users as admin
   showSuperhero = event => {
     event.preventDefault()
     axios.get("/api/superherousers")
-      .then((res) => {
-        this.setState({ userList: JSON.stringify(res.data) })
-      })
+    .then((res) => {
+      storageObj = JSON.stringify(res.data)
+      this.setState({ userList: JSON.stringify(res.data) })
+      downloadSuperheroJSON()
+    })
   }
 
   // function to log in, if invalid credentials cannont because of passport
@@ -430,6 +478,7 @@ class Home extends React.Component {
 
             )}
         </MDBContainer>
+        <a id="downloadAnchorElem" style={invisibleDisplay}></a>
       </div>
     );
   }
