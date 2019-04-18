@@ -418,7 +418,7 @@ class Home extends React.Component {
                <MDBRow style={formStyle}>
                <MDBCol md="3"></MDBCol>
                <MDBCol md="6" style={whiteBack}>
-                 <p>Because this is a duplicate project of a real-world job, I will give you the login information. The username for a normal user is "new" and the password is "user", and the admin's username is "admin" and the password is "bestProducer". This app uses the Hellosign API to send contracts based on the info you fill into the forms. If you would like to send a test contract, please do.</p>
+                 <p>Because this is a duplicate of a real-world project, I will give you the login information. The username for a normal user is "new" and the password is "user", and the admin's username is "admin" and the password is "bestProducer". This app uses the Hellosign API to send contracts based on the info you fill into the forms. If you would like to send a test contract, please do.</p><a href="https://github.com/OrionAbrams/stealth-project" target="_blank" rel="noopener noreferrer">Github and Readme</a>
                </MDBCol>
              </MDBRow>
              </div>
