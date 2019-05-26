@@ -11,9 +11,9 @@ var emailForAgreement
 var nameForAgreement
 
 var templateIds = {
-  play: '544eee3d2d1e9c79b3261ca90942109a55da49c2',
-  netflix: '34e60e6378fc427114e7965ddd74c23aa28276b', 
-  superhero: 'd98484473288a5d5cd2bb4113bb995c3e03ca86b'
+  play: '4e01f9017430800a59fcf1def925b4d36bfc9253',
+  netflix: '1fd0b76af75e292fdc7ff6ec322334ee3434d320', 
+  superhero: 'd840a53daf71d6456388ff50269af69396b1f25e'
 }
 
 
