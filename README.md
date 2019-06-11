@@ -7,7 +7,7 @@
   * The project was made to be secretive and secure so that the general public could not see the forms or the contracts being sent. I used React to accomplish this-- it's impossible (as far as I know) to see the underlying components in React in this case without having the correct credentials to log in.
  ### 2. What / Objectives / User Stories
   * **Technologies**, design through deployment of the application:
-    * Server-side: Node.js w/ Express web app framework; MongoDB for data persistence w/ Sequelize ORM;  Passport for user authentication; Hellosign API for automated contracts
+    * Server-side: Node.js w/ Express web app framework; MongoDB/Mongoose for data persistence;  Passport for user authentication; Hellosign API for automated contracts
     * Client-side: React.js library for component based user interface; Material Bootstrap framework for HTML/CSS; React-Datepicker and Moment.js for dates in contracts
   * **User stories**:
     * To be able to receive a contract with the form info put in automatically filled
